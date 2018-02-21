@@ -24,11 +24,17 @@
         
         <br>
         
+        <label>Ваш номер телефона
+        
+            <input type="tel" name="number" placehold="Your namber">
+        </label>
+        
+        <br>
        
        
        <label>Стать : </label>
        <label>
-           <input type="radio" name="sex" value="Чоловік">
+           <input type="radio" name="sex" value="Чоловік" required>
            Чоловік
        </label>
        <label>
@@ -38,72 +44,21 @@
         
         <br>
         
-       <label>Вік : </label>
-       <label>
-            <input type="radio" name="age" value="дитина">
-            Дитина
-       </label>
-       <label>
-           <input type="radio" name="age" value="підліток">
-           Підліток
-       </label>
-       <label>
-           <input type="radio" name="age" value="дорослa" checked> <!--за замовчуванням-->
-           Доросла
-       </label>
-       <label>
-           <input type="radio" name="age" value="похилий вік">
-           Похилий вік
-       </label>
-       
-        <br>
-        
        <lable>Рік народження : </lable> 
-       <select name="select_name">
-           <option value"1940-i">1940-i</option>
-           <option value"1950-i">1950-i</option>
-           <option value"1960-i">1960-i</option>
-           <option value"1970-i">1970-i</option>
-           <option value"1980-i">1980-i</option>
-           <option value"1990-i">1990-i</option>
-           <option value"2000-i">2000-i</option>
-           <option value"2010-i">2010-i</option>
-           <option value"2020-i">2020-i</option>
-           
-       </select>
+       <input type="date" name="birdate">
        
        <br>
        
        <label>Вам рокiв : </label>
-       <br>
-       <select name="sellect_multi_name" size="4">
-           <option value"3">3</option>
-           <option value"4">4</option>
-           <option value"5">5</option>
-           <option value"6">6</option>
-           <option value"7">7</option>
-           <option value"8">8</option>
-           <option value"9">9</option>
-           <option value"10">10</option>
-           <option value"11">11</option>
-            <option value"12">12</option>
-           <option value"13">13</option>
-           <option value"20">20</option>
-           <option value"21">21</option>
-           <option value"22">22</option>
-           <option value"23">23</option>
-           <option value"24">24</option>
-           <option value"30">30</option>
-           <option value"40">40</option>
-            <option value"41">41</option>
-           <option value"42">42</option>
-           <option value"50">50</option>
-           <option value"60">60</option>
-       </select>
+       <input type="number" name="number" min="1" max="100">
        </fieldset>
+       
        <br>
+        
+       
        
        <label>Чи маэте ви котика?</label>
+       <br>
        <label>
              <input type="radio" name="answer_name" value="Yes">
              ТАК
@@ -139,6 +94,15 @@
        </label>
        <br>
        <textarea name="name_text" rows="3" cols="50">Ваш варіант</textarea>
+        
+        <br>
+        
+        <h2>Створіть свого ідеального кота</h2>
+        
+        <label>
+            Колір кота : 
+            <input type="color" name="color_cat" value="">
+        </label>
         
         <br>
         
